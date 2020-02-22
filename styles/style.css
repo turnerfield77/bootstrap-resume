@@ -1,0 +1,20 @@
+html {
+    font-family: sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    text-align: left;
+}
+
+header h1 {
+    text-align: center;
+}
+
+div {
+    border-bottom: 3px solid rgba(107, 94, 70, 0.288);
+    border-right: 3px solid rgba(107, 94, 70, 0.288);
+}
