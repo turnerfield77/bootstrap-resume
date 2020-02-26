@@ -5,8 +5,6 @@
     - jumbotron header (ugly so far)
 
     To Do and Issues
-    - display jumbotron elements inline
-    - move contact info to jumbotron
     - convert portfolio section into cards
 
     Quick notes about bootstrap
@@ -35,10 +33,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container-fluid">
-                <img id="profile-pic" src="images/ProfilePic.jpg">
-                <h1>Resume</h1>
+        <div class="jumbotron jumbotron-fluid mb-0">
+            <div class="container-fluid jumbotron-header">
+                <h1 class="display-4">My Resume!</h1>
+                <p class="lead">Please consider me as a proper candidate for the open position for which I am applying.</p>
             </div>
         </div>
         <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
@@ -74,8 +72,11 @@
                 </ul>
             </div>
         </nav>
-        <hr>
+        <br>
         <main>
+            <div>
+                <img id="profile-pic" src="images/ProfilePic.jpg" class="d-lg-inline-block d-xl-inline-block d-md-inline-block">
+            </div>
             <div id="test-div">
                 <h2><u><b>A. Turner Millsaps Jr.</b></u></h2>
                 2717 Berry Ct | Marietta, GA 30066<br>
